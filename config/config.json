@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hack-the-hill-2023-canadian-tire-main-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/hackTheHill2023CanadianTireMain/HackTheHill2023CanadianTireMainWebPart.js",
+          "manifest": "./src/webparts/hackTheHill2023CanadianTireMain/HackTheHill2023CanadianTireMainWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HackTheHill2023CanadianTireMainWebPartStrings": "lib/webparts/hackTheHill2023CanadianTireMain/loc/{locale}.js"
+  }
+}
